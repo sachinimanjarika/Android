@@ -13,10 +13,10 @@
     tools:ignore="ExtraText">
 
     <com.goodiebag.protractorview.ProtractorView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:textProgressColor="#FF00"
-        app:tickProgressColor="#abe6"/>
+        app:tickProgressColor="#abe6" />
 
 
     <ImageButton
@@ -68,5 +68,21 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="82dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="167dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginRight="122dp"
+        android:layout_marginBottom="428dp"
+        android:text="Button" />
 
 </RelativeLayout>
